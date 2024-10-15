@@ -4,5 +4,5 @@ def is_palin(st):
     if st[0]!=st[-1]:
         return False
     return is_palin(st[1:-1])
-st="aba"
+st="abca"
 print(is_palin(st))
