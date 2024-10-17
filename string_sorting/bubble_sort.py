@@ -6,5 +6,5 @@ def sort_string(s):
             if li[j]>li[j+1]:
                 li[j],li[j+1]=li[j+1],li[j]
     return li
-ans=sort_string("yashwanth")
+ans=sort_string("54326")
 print(ans)
